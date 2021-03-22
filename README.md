@@ -1,5 +1,14 @@
 # hobbies
 
+##
+
+Не видел смысл использовать стор, так как данные не глобальные для всего приложения. Вместо этого использовал композицию компонентов:
+```
+MyHobbies -> HobbiesList -> HobbiesListItem
+
+FriendHobbies -> HobbiesList -> HobbiesListItem
+```
+
 ## Project setup
 ```
 npm install
